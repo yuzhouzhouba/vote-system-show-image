@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>每天吃什么</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+	body{margin:0 auto;padding:0 auto;text-align:center;}
+    </style>
+	<script language"javascript">
+	function look(){
+		window.location.href="vote.php";
+	}
+	</script>
+</head>
+<body>
+	<h1>每天吃什么</h1>
+	
+	<form action="" method="">
+		<tr>
+			<input type="button" onclick="look();" value="查看统计情况"/></td>
+		</tr>
+	</form>
+
+
+	<img src="vote.php">		
+	<form action="add.php" method="get" >
+		<tr>
+			<td>投票</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="checkbox" name="vote[]" value="1">
+				<input type="checkbox" name="vote[]" value="2">
+				<input type="checkbox" name="vote[]" value="3">
+				<input type="checkbox" name="vote[]" value="4">
+				<input type="checkbox" name="vote[]" value="5">
+				<input type="checkbox" name="vote[]" value="6">
+				<input type="checkbox" name="vote[]" value="7">
+				<input type="submit" value="投票" >
+			</td>
+		</tr>
+	</form> 
+
+	
+
+
+	
+	
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+----Ê³Îï
+create table eat(
+electorId int,
+name varchar(64),
+datax varchar(64),
+datay int,
+foodId int
+);
+
+
+insert into eat values(1,'Ôç·¹','Ãæ°ü',5,1);
+insert into eat values(1,'Ôç·¹','¶¹½¬+ÓÍÌõ',2,2);
+insert into eat values(1,'Ôç·¹','ÆäËû',3,3);
+
+insert into eat values(2,'Îç·¹','¿¾Óã',4,1);
+insert into eat values(2,'Îç·¹','ÃæÌõ',4,2);
+insert into eat values(2,'Îç·¹','Ğ¡ÁúÏº',4,3);
+insert into eat values(2,'Îç·¹','ÃæÌõ',4,4);
+insert into eat values(2,'Îç·¹','»Ø¹øÈâ',5);
+insert into eat values(2,'Îç·¹','¼å±ı',3,6);
+insert into eat values(2,'Îç·¹','»ÆìË¼¦',3,7);
+
+
+insert into eat values(3,'Íí·¹','¸É¹ø',7,1);
+insert into eat values(3,'Íí·¹','Ã°²Ë',2,2);
+insert into eat values(3,'Íí·¹','Ã×Ïß',3,3);
+
+
+
+¸É¹ø¿¾ÓãĞ¡ÁúÏº£¬Ã°²Ë»ğ¹øÓó¶ù¼¦£¬ÅûÈøÅ£ÅÅ»Ø¹øÈâ£¬ÖÁ×ğÅûÈø£¬É³ÏØĞ¡³Ô
+±±¾©¿¾Ñ¼
+
